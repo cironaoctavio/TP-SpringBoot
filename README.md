@@ -10,9 +10,9 @@ Las tareas tienen:
 
 La aplicación incluye:
 - Servicio con reglas de negocio para manejar tareas
-- Repositorio en memoria (`TareaRepository`)
-- Configuración externa mediante `application.properties` y profiles `dev` / `prod`
-- Lectura de propiedades con `@Value`
+- Repositorio en memoria (TareaRepository)
+- Configuración externa mediante application.properties y profiles dev / prod
+- Lectura de propiedades con @Value
 - Estadísticas básicas de tareas
 
 
@@ -39,26 +39,26 @@ mvn spring-boot:run
 
 
 🔄 Cómo ejecutar el proyecto
-    🧭 Paso 1: Clonar el repositorio
-        git clone https://github.com/cironaoctavio/TP-SpringBoot.git
-        cd tp-fundamentos-springboot
+    🧭 Paso 1: Clonar el repositorio 
+git clone https://github.com/cironaoctavio/TP-SpringBoot.git
+cd tp-fundamentos-springboot
 
-    🧭 Paso 2: Ejecutar con Maven
-        mvn spring-boot:run
+🧭 Paso 2: Ejecutar con Maven
+mvn spring-boot:run
 
-    🧭 Paso 3: Cambiar entre perfiles
+🧭 Paso 3: Cambiar entre perfiles
 
 Podés cambiar el perfil activo desde la terminal o el archivo de configuración.
 
 Por terminal:
 
-    mvn spring-boot:run -Dspring-boot.run.profiles=dev
-    mvn spring-boot:run -Dspring-boot.run.profiles=prod
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
+mvn spring-boot:run -Dspring-boot.run.profiles=prod
 
 
 O directamente en el archivo application.properties:
 
-    spring.profiles.active=prod
+spring.profiles.active=prod
 
 🖼 Capturas de pantalla
 
