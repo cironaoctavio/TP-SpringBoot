@@ -31,15 +31,15 @@ La aplicación incluye:
 
 
 # Clonar el repositorio
-git clone https://github.com/TU-USUARIO/TU-REPO.git
-cd TU-REPO
+git clone https://github.com/TU-USUARIO/TU-REPO.git](https://github.com/cironaoctavio/TP-SpringBoot.git
+cd TP-SpringBoot
 
 # Compilar y ejecutar
 mvn spring-boot:run
 
 
 🔄 Cómo ejecutar el proyecto
-    🧭 Paso 1: Clonar el repositorio 
+🧭 Paso 1: Clonar el repositorio 
 git clone https://github.com/cironaoctavio/TP-SpringBoot.git
 cd tp-fundamentos-springboot
 
